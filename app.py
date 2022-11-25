@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 # Add a title and intro text
-df = pd.read_excel("/Users/SpyJigu/Downloads/HousePredTab.xlsx")
+df = pd.read_excel("HousePredTab.xlsx")
 st.title('GeoPrice')
 
 st.sidebar.title("Here Technology Hackathon")
